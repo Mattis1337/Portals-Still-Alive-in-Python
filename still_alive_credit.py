@@ -880,7 +880,5 @@ while(lyrics[currentLyric].mode != 9):
 
 end_draw()
 
-if enable_sound:
-    while True:
-        time.sleep(600)
+sys.exit()
 
