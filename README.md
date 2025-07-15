@@ -7,7 +7,7 @@
 
 Windows 下需要使用 Windows terminal，MinTTY 等支持 ANSI 终端转义序列的终端模拟器。
 
-为了播放音乐，需要用 `pip` 安装 `playsound`。`playground` 在 Linux 下依赖 
+为了播放音乐，需要用 `pip` 安装 `python-vlc`。`playground` 在 Linux 下依赖 
 `python-gobject` 软件包（Ubuntu 已默认安装）。在 MacOS 下还需要用 `pip` 安装 `PyObjC`。
 
 ## 使用方法
@@ -46,9 +46,11 @@ in text terminal.
 In Windows system, you need a teminal emulator supporting ANSI escape sequences
 like Windows Terminal, MinTTY, Cmder or ConEmu。
 
-For playing music, you need install `playsound` with `pip`. In Linux `playsound`
-depends on `python-gobject` (default installed in Ubuntu). In MacOS you also need
-to use `pip` to install `PyObjC`.
+For playing music, you need install `python-vlc` with `pip`. Note that vlc must 
+be installed on your system to use this module. To install vlc run:
+`sudo apt install vlc` on Ubunty (and all other Distros using Aptitude)
+`sudo pacman -S vlc` on Arch
+
 
 ## Usage
 
